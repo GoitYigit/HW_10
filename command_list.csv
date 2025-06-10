@@ -1,0 +1,44 @@
+    1  git config --global user.name "GoitYigit"
+    2  git config --global user.email "yigitcevikkalp@gmail.com
+    3  git clone https://github.com/GoitYigit/HW_10.git
+    4  cd HW_10
+    5  cd /c/Users/cevik/Desktop/hw_10_git
+    6  git init
+    7  git config --global user.name "Cevikkalp"
+    8  git config --global user.email "yigitcevikkalp@gmail.com"
+    9  git remote add origin https://github.com/GoitYigit/HW_10.git
+   10  <
+   11  git remote add origin https://github.com/GoitYigit/HW_10.git
+   12  git pull origin main
+   13  touch text_ignore.txt
+   14  .gitignore
+   15  nano .gitignore
+   16  git status
+   17  git add .
+   18  git commit -m "Add text_ignore.txt to .gitignore"
+   19  git log
+   20  [200~touch main_test.txt
+   21  touch main_test.txt
+   22  ls
+   23  git add .
+   24  git commit -m "Add main_test.txt file"
+   25  git log
+   26  ls
+   27  git status
+   28  git status
+   29  git log --oneline
+   30  git branch develop
+   31  git checkout develop
+   32  git branch
+   33  touch develop_test.txt
+   34  git add.
+   35  git add .
+   36  git commit -m "Add develop_test.txt file"
+   37  echo "Bu dosya develop dalında oluşturuldu." >> develop_test.txt
+   38  git status
+   39  git add develop_test.txt
+   40  git commit -m "Update develop_test.txt content"
+   41  git checkout master
+   42  git merge develop
+   43  git log --oneline
+   44  history > command_list.csv
